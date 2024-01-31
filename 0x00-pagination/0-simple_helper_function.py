@@ -18,4 +18,3 @@ def index_range(page: int, page_size: int) -> Tuple[int, int]:
     end_page = start_page + page_size
 
     return (start_page, end_page)
-
